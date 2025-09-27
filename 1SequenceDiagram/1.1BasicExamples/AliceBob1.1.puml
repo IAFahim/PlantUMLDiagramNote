@@ -3,22 +3,30 @@
 
 Alice -> Bob: Authentication Request
 note left
-`->` Solid line arrow
+`->` 
+Solid line arrow
 end note
-
 
 Bob --> Alice: Authentication Response
 note right
-`<--` arrow line dashed
+`<--` 
+arrow line dashed
 end note
 
 Alice -> Bob: Another authentication Request
 note left
-`->` normal messages, synchronous calls, or strong interactions
+`->` 
+normal messages, 
+synchronous calls, 
+strong interactions
 end note
 
 Alice <-- Bob: Another authentication Response
 note right
-`<--` return messages, responses, or weaker interactions
+`<--` 
+return messages, 
+responses, 
+weaker interactions
 end note
+
 @enduml
